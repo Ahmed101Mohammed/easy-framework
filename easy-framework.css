@@ -1,0 +1,12 @@
+/* fixed-bar class: turn your element to fixed element at the top of your page with a fall width */
+.fixed-bar
+{
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    top: 0px;
+    margin: auto;
+    left: 50%;
+    transform-origin: center;
+    transform: translate(-50%);
+}
