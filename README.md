@@ -26,5 +26,6 @@ EasyFramework classes:
     > - Make your element with a fall width.
     > - Your element position will be always appearing at the top.
     > - When you change the width of your element, the element will be at the top in the center of your page.
+    > - Make your element above all elements.
 
 > :Warning: The project is still building...
