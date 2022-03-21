@@ -1,3 +1,30 @@
+/* Position classes */
+    /* .middle-x class: make your element in the middle of the dimension X, even if you are resizing the element */
+    .middle-x
+    {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    /* .middle-y class: make your element in the middle of the dimension Y, even if you are resizing the element */
+    .middle-y
+    {
+        position: absolute;
+        top: 50%;
+        transform: translate(0,-50%);
+    }
+
+    /* .middle class: make your element in the middle of your element in to dimensions X and Y, even if you are resizing the element */
+    .middle
+    {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+
 /* fixed-bar class: turn your element to fixed element at the top of your page with a fall width */
 .fixed-bar
 {
